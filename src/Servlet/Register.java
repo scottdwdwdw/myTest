@@ -53,7 +53,7 @@ public class Register extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
            System.out.print("in get method");
     }
-    b
+  
     private boolean isInvalidEmail(String email){
         return false;
     }
